@@ -1,0 +1,221 @@
+body, html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 10
+}
+
+body{
+    margin: 0 auto;
+    /* box-sizing: border-box; */
+    font-weight: 400;
+    background-color: white;
+    width: 100%;
+}
+.block1{
+    background-image: url("../imagens/homefundo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+#navbar{
+    background-color: #E6E6FA;
+    position: absolute;
+    margin: 2%;
+    width: 95%;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+#brand_logo{
+    float:left;
+    margin:1%;
+    width: 7%;
+    height:15%;
+}
+#nav_titulo{
+    float: left;
+    /* margin:; */
+    margin-top: 3%;
+    font-size:xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: #27408B;
+}
+#navbar_links{
+    float: left;
+    margin-top:3.8%;
+    margin-left:5%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width:40%;
+}
+.nav_link{
+    margin-left: 10%;
+    color: #27408B;
+    text-decoration: none;
+}
+.nav_link:hover{
+	color: goldenrod;
+}
+#navbar_buttons{
+    margin-top: 3.5%;
+}
+.nav_button:hover{
+    text-decoration: none;
+    background-color: gold;
+    color: white;
+}
+.nav_button{
+    margin-left:10px;
+    border-radius:5px;
+    border:none;
+    width:9%;
+    height:30px;
+    background-color: transparent;
+    font-size:20px;
+    text-decoration: none;
+}
+.pintor {
+    margin-top:2%;
+    width:100%;
+}
+#block2a {
+    margin-top: 2%;
+    margin-left:4%;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+#block2b{
+    margin-left: 4%;
+    width: 90%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#autorretrato_van{
+    margin-left: 38%;
+    font-size: 80%;
+}
+#block3a{
+    margin-top:1%;
+    margin-left:4%;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;  
+    width:95%; 
+}
+#block3b{
+    margin-left: 4%;
+    width: 90%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#block3c{
+    margin-top:1%;
+    margin-left:4%;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;  
+    width:95%; 
+}
+#block3d{
+    margin-left: 4%;
+    width: 90%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#primeira_obra{
+    margin-left: 25%;
+    font-size: 80%;
+}
+#block3e{
+    margin-top:1%;
+    margin-left:4%;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;  
+    width:95%; 
+}
+#block3f{
+    margin-left: 4%;
+    width: 90%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#block3g{
+    margin-top:1%;
+    margin-left:4%;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;  
+    width:95%; 
+}
+#block3h{
+    margin-left: 4%;
+    width: 90%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#block3i{
+    margin-top:1%;
+    margin-left:4%;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;  
+    width:95%; 
+}
+#block3j{
+    margin-left: 4%;
+    width: 90%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+#block4a{
+    margin-top: 3%;
+    font-size: 250%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black; 
+    width: 100%;   
+    background-color: gold;
+    text-align: center;
+}
+#block4b{
+    margin-top:1%;
+    margin-left: 33%
+}
+#bnt_cad:hover{
+    text-decoration: none;
+    background-color: #E6E6FA;
+    color: white;
+}
+#bnt_cad{
+    margin-bottom: 10px;
+    border-radius:5px;
+    border:none;
+    width:15%;
+    height:50px;
+    background-color: transparent;
+    font-size:30px;
+    text-decoration: none;
+    margin-left: 0px;
+}
+.logo_block{
+    margin-left:6%;    
+    width:40%;
+    height:40%;
+}
+#rodape{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    height: 50px;
+    background: gold;
+    margin-bottom: 0%;
+}

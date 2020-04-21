@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/cadastro.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro - Van Gogh</title>
+    </head>
+    <body style="margin: 0;">
+        <div id="navbar">
+            <img id="brand_logo" src="./imagens/logo.png">
+            <b id="nav_titulo">Vincent Van Gogh</b>
+            <div id="navbar_links">
+                <a class="nav_link" href="home.html">Home</a>
+                <a class="nav_link" href="obras.html">Obras</a>
+                <a class="nav_link" href="curiosidades.html">Curiosidades</a>
+            </div>
+        </div>
+        <div class="div_corpo">
+            <div class="div_conteudo">
+                <span class="txt_ipt" id="txt_um" >Seu nome:</span><br>
+                <input class="ipt" type="text" placeholder="Nome"><br><br>
+                <span class="txt_ipt" id="txt_dois">Seu endereço de e-mail:</span><br>
+                <input class="ipt" type="text" placeholder="E-mail"><br><br>
+                <button class="btn_ent" type="submit" onclick="entrar()" >Cadastrar</button><br><br>
+            </div>
+        </div>
+    </body>
+</html>
+<script>
+    function entrar(){
+        alert(`Verifique seu e-mail, por favor ✩`)
+    }
+</script>

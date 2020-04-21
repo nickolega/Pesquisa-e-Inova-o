@@ -1,0 +1,139 @@
+body, html {
+    height: 100%;
+    background-image:  url("../imagens/loginfundo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+@keyframes anm_corpo{
+    0%{
+        margin-top: 0px;
+        opacity: 0%;
+    }
+    100%{
+        margin-top: 14%;
+        opacity: 0.7;
+    }
+}
+#navbar{
+    background-color: #E6E6FA;
+    position: absolute;
+    margin: 2%;
+    width: 95%;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+#brand_logo{
+    float:left;
+    margin:1%;
+    width: 7%;
+    height:15%;
+}
+#nav_titulo{
+    float: left;
+    /* margin:; */
+    margin-top: 3%;
+    font-size:xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: #27408B;
+}
+#navbar_links{
+    float: left;
+    margin-top:3.8%;
+    margin-left: 8%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width:40%;
+}
+.nav_link{
+    margin-left: 10%;
+    color: #27408B;
+    text-decoration: none;
+}
+.nav_link:hover{
+	color: goldenrod;
+}
+#navbar_buttons{
+    margin-top: 3.5%;
+    color: #27408B;
+}
+.nav_button:hover{
+    text-decoration: none;
+    background-color: gold;
+}
+.nav_button{
+    margin-left:10px;
+    border-radius:5px;
+    border:none;
+    width:9%;
+    height:30px;
+    background-color: transparent;
+    font-size:20px;
+    text-decoration: none;
+}
+.div_corpo{
+    margin: 33%;
+    width: 34%;
+    margin-top: 14%;
+    height: 50%;
+    background-color: #E6E6FA;
+    animation-name: anm_corpo;
+    animation-duration: 2s;
+    position: absolute;
+    opacity: 0.9;
+    margin-bottom: 5%;
+    display: flex;
+    border-radius: 10%;
+}
+.div_conteudo{
+    margin:13%;
+    line-break: auto;
+    color: black;
+}
+.txt_ipt{
+    margin-left:43%;
+    margin-top:1%;
+    margin-bottom: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    color: #27408B;
+    border-radius: 4px;
+    width:100%;
+    height:40px;
+}
+.ipt{
+    height: 20px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#txt_um{
+    margin-left: 36%;
+}
+#txt_dois{
+    margin-left: 17%;
+}
+.btn_ent{
+    margin-left: 33%;
+    margin-bottom: 20px;
+    margin-top: 5%;
+    height: 45px;
+    width: 35%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    background: transparent;
+}
+.btn_ent:hover{
+    background-color: gold;
+}
+.link-cadastro{
+    margin-left: 20%;
+    font-family:'Times New Roman', Times, serif;
+    color:#27408B;
+}

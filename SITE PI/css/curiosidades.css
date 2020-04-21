@@ -1,0 +1,281 @@
+body, html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 10
+}
+
+body{
+    margin: 0 auto;
+    /* box-sizing: border-box; */
+    font-weight: 400;
+    background-color: white;
+    width: 100%;
+}
+.block1{
+    background-image: url("../imagens/curiosidadesfundo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+#navbar{
+    background-color: #E6E6FA;
+    position: absolute;
+    margin: 2%;
+    width: 95%;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+#brand_logo{
+    float:left;
+    margin:1%;
+    width: 7%;
+    height:15%;
+}
+#nav_titulo{
+    float: left;
+    /* margin:; */
+    margin-top: 3%;
+    font-size:xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: #27408B;
+}
+#navbar_links{
+    float: left;
+    margin-top:3.8%;
+    margin-left:5%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width:40%;
+}
+.nav_link{
+    margin-left: 10%;
+    color: #27408B;
+    text-decoration: none;
+}
+.nav_link:hover{
+	color: goldenrod;
+}
+#navbar_buttons{
+    margin-top: 3.5%;
+}
+.nav_button:hover{
+    text-decoration: none;
+    background-color: gold;
+    color: white;
+}
+.nav_button{
+    margin-left:10px;
+    border-radius:5px;
+    border:none;
+    width:9%;
+    height:30px;
+    background-color: transparent;
+    font-size:20px;
+    text-decoration: none;
+}
+.curio {
+    margin-top:2%;
+    width:100%;
+}
+#block2a{
+    margin-top: 2%;
+    margin-left:4%;
+    float:left;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+#block2b{
+    margin-top: 2%;
+    text-align: center;
+    float:left;
+    width: 90%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#fato1{
+    margin-left: 25%;
+}
+#block3a{
+    margin-left:4%;
+    float:left;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+#block3b{
+    margin-top: 2%;
+    text-align: center;
+    float:left;
+    width: 90%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#museu{
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
+}
+#block4a{
+    margin-left:4%;
+    float:left;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+#block4b{
+    margin-top: 3%;
+    text-align: center;
+    float:left;
+    width: 90%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#fato3{
+    margin-left: 17%;
+    width: 50%;
+    height: 50%;
+}
+#block5a{
+    margin-left:4%;
+    float:left;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+#block5b{
+    text-align: center;
+    float:left;
+    width: 90%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#fato4{
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
+}
+#block6a{
+    margin-left:4%;
+    float:left;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+#block6b{
+    text-align: center;
+    float:left;
+    width: 90%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#fato5{
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
+}
+#block7a{
+    margin-left:4%;
+    float:left;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+#block7b{
+    text-align: center;
+    float:left;
+    width: 90%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#block8a{
+    margin-left:4%;
+    float:left;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+#block8b{
+    text-align: center;
+    float:left;
+    width: 90%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#fato7{
+    margin-left: 26%;
+    width: 50%;
+    height: 50%;
+}
+#block9a{
+    margin-left:4%;
+    float:left;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+#block9b{
+    text-align: center;
+    float:left;
+    width: 90%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#block10a{
+    margin-left:4%;
+    float:left;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+#block10b{
+    text-align: center;
+    float:left;
+    width: 90%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#fato9{
+    margin-left: 25%;
+    width: 50%;
+    height: 50%;
+}
+#block11a{
+    margin-left:1%;
+    float:left;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+#block11b{
+    text-align: center;
+    float:left;
+    width: 90%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#fato10{
+    margin-left: 26%;
+    width: 50%;
+    height: 50%;
+}
+#rodape{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    height: 50px;
+    background: gold;
+    margin-bottom: 0%;
+}
