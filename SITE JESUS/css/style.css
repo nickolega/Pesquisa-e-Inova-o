@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family:'Times New Roman', Times, serif;
+  background: black;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.header .container {
+  min-height: 70px;
+  padding: 15px;
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+  border-bottom: #708090 10px solid;
+}
+
+.titulo {
+  float: left;
+  color: white;
+  margin: auto;
+  padding: 1px;
+  font-size: 200%;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 120%;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav ul {
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.nav {
+  float: right;
+}
+
+#preta_um{
+  width: 100%;
+  height: 700px;
+  background: #232323;
+  border-bottom: #708090 10px solid;
+}
+
+.fatos {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.fatos h1{
+  text-align: center;
+  margin: 0;
+  padding-top: 8px;
+  font-size: 50px;
+  color: white;
+}
+
+.fatos ul {
+  display: flex;
+  list-style: none;
+}
+
+.fatos h3{
+  font-size: 150%;
+}
+.fatos li{
+  color: white;
+  font-size: 110%;
+  padding-left: 20px;
+  margin-bottom: 0px;
+}
+
+#primeiro{
+  margin-top: 40px;
+}
+
+#segundo{
+  margin-top: 37px;
+}
+
+#terceiro{
+  margin-top: 24px;
+}
+
+#icon_um{
+  width: 100px;
+}
+
+#icon_dois{
+  width: 150px;
+}
+
+#icon_tres{
+  width: 140px;
+}
+
+.quebra {
+  margin-top: 10px;
+  width: 100%;
+  height: 80px;
+  background: #1C1C1C;
+  color: white;
+}
+
+.quebra h1 {
+  text-align: center;
+  margin: 0;
+  padding-top: 8px;
+  font-size: 55px;
+}
+
+.showcase {
+  width: 100%;
+  text-align: center;
+  min-height: 200px;
+  color: white;
+}
+
+.showcase p {
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+#preta_filhote{
+  height: 300px;
+  margin-left: 80px;
+}
+
+#preta_dois{
+  height: 300px;
+  margin-left: 10px;
+}
+
+#preta_tres{
+  height: 300px;
+  margin-left: 10px;
+}
+
+#preta_quatro{
+  height: 300px;
+  margin-left: 10px;
+}
+
+.divulgacao {
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+  color: white;
+}
+
+
+.divulgacao h1 {
+  color: white;
+  float: left;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+#insta_logo{
+  height: 50px;
+  margin-left: 50px; 
+  margin-top: 25px;
+}
+
+.footer {
+  text-align: center;
+  background: #1C1C1C;
+  width: 100%;
+  height: 100px;
+}
+
+.footer p {
+  color: white;
+  padding-top: 35px;
+  font-size: 150%;
+}
